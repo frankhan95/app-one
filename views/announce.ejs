@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Announcement</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="/assets/announce.js"></script>
+    </head>
+    <body>
+        <div>
+            <h3>Current Announcement: </h3>
+            <p> <%= data.msg %> </p>
+            <form>
+                <input type = "text" name = "message" placeholder = "New Announcement" required />
+                <button type = "submit">Update</button>
+            </form>
+        </div>
+    </body>
+</html>
